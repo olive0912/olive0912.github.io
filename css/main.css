@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "nanum-gothic";
+    src: url("../font/NanumGothic.woff");
+}
+
+body {
+    background-color: #f7f9fc;
+    font-family: "nanum-gothic";
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+    padding: 20px;
+}
+
+.just-color {
+    color: #6fbaf8; 
+}
+
+.button-color {
+    background-color: #6fbaf8;
+    border: 0px;
+}
+
+
+.pill {
+    border: 1px solid #E8E8E8;
+    padding:10px;
+}
+
+
+@media (max-width: 767.98px) { /* Bootstrap 4 기준 sm 이하 */
+  .disable-border-sm {
+    border-left: none !important;
+  }
+}
